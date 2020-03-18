@@ -1,0 +1,130 @@
+.bg {
+    background-color: aqua;
+}
+
+.header {
+    padding: 15px 20px 1px 20px;
+
+    background-color: rgb(213, 226, 24);
+    margin: 0;
+}
+
+.cart {
+    margin-left: 50px;
+    margin-right: 10px;
+    color: rgb(53, 85, 82);
+}
+
+.user {
+    margin-left: 20px;
+    color: rgb(53, 85, 82);
+}
+
+.nav-cart {
+    position: absolute;
+    right: 60px;
+    top: 115px;
+    width: 400px;
+    text-align: center;
+}
+
+.nav-user {
+    position: absolute;
+    right: 10px;
+    top: 115px;
+    width: 400px;
+    text-align: center;
+}
+.car-ce{
+    margin-top: 20px;
+}
+
+.row-1 {
+    padding: 10px 0;
+}
+
+.row-2 {
+    padding: 10px 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+}
+
+.new {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+}
+
+.jacket {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+}
+
+.jacket a {
+    list-style-type: none;
+    color: white;
+}
+
+.look {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+    list-style-type: none;
+}
+
+.look a {
+    list-style-type: none;
+    color: white;
+}
+
+.try {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+    font-style: bold;
+}
+
+.try a {
+    list-style-type: none;
+    color: white;
+}
+
+.row-3 {
+    padding: 40px;
+    background-color: aqua;
+}
+
+.row-4 {
+    padding: 40px;
+}
+
+.row-5 {
+    padding: 40px;
+    color: rgb(247, 235, 235);
+    background: rgb(17, 17, 17);
+}
+
+@media (max-width: 1020px) {
+    .cart {
+        margin-left: 5px;
+    }
+}
