@@ -117,6 +117,11 @@
     padding: 40px;
 }
 
+.borde{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
 .row-5 {
     padding: 40px;
     color: rgb(247, 235, 235);
@@ -126,5 +131,9 @@
 @media (max-width: 1020px) {
     .cart {
         margin-left: 5px;
+    }
+    .borde{
+        border-left: none;
+        border-right: none;
     }
 }
