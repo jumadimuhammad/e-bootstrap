@@ -1,12 +1,11 @@
-.bg {
-    background-color: aqua;
-}
+
 
 .header {
     padding: 15px 20px 1px 20px;
-
-    background-color: rgb(213, 226, 24);
+    background-color: rgb(99, 99, 105);
     margin: 0;
+    color: rgb(245, 229, 139);
+    font-size: 16px;
 }
 
 .cart {
